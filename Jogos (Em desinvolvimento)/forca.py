@@ -101,4 +101,3 @@ def play(classe: int) -> None:
             print("\033[1;31mVocê perdeu! A palavra era: {}\n\033[m".format(palavra))
             sleep(2)
             break
-        

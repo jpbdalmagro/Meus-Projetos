@@ -6,7 +6,7 @@ import menus
 def main():
     while True:
         opcao = menus.main_menu()
-        
+
         match(opcao):
             case "1":
                 system("cls")
