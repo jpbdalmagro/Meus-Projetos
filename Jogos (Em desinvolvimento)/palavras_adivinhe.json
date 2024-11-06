@@ -1,0 +1,62 @@
+{
+    "banana": [
+        "Fruto conhecido pelo formato peculiar.",
+        "Companheira matinal de cereais.",
+        "Verde antes de amadurecer.",
+        "Cresce em cachos, mas não é uva.",
+        "Potássio é o seu forte.",
+        "Amiga dos shakes pós-treino.",
+        "Presente em sobremesas tropicais.",
+        "Não precisa de faca para ser comida.",
+        "Famosa por sua 'casca de' acidentes.",
+        "Símbolo de humor em desenhos animados."
+    ],
+    "elefante": [
+        "Majestade cinza da savana.",
+        "Memória que não falha.",
+        "Possui 'dentes' que são objetos de desejo.",
+        "Orelhas que poderiam ser asas.",
+        "Mestre em derrubar árvores.",
+        "Pisa forte, mas é herbívoro.",
+        "Líderes de grandes marchas.",
+        "Símbolo de força e longevidade.",
+        "Na Ásia, pode ser sagrado.",
+        "Os humanos o caçam pelas presas."
+    ],
+    "pirata": [
+        "Aventuras em alto mar.",
+        "Olho que vê por um só lado.",
+        "Navio cheio de histórias e segredos.",
+        "Par de pernas nem sempre é a regra.",
+        "'Arca do tesouro' é seu objetivo.",
+        "Papagaio é seu fiel companheiro.",
+        "Histórias de ouro e traição.",
+        "Símbolos de caveira e ossos cruzados.",
+        "Navegavam sob bandeira negra.",
+        "Antigos lobos do mar, temidos e reverenciados."
+    ],
+    "cientista": [
+        "Profissão de curiosos e inovadores.",
+        "Transforma perguntas em descobertas.",
+        "Seu laboratório é seu reino.",
+        "Busca a verdade em fórmulas e experimentos.",
+        "Publicações são seu legado.",
+        "Branco é a cor de sua armadura.",
+        "Desvenda os segredos do universo.",
+        "Universidades e centros de pesquisa são seus lares.",
+        "Desafiam o desconhecido constantemente.",
+        "Seu trabalho muda o mundo, um experimento por vez."
+    ],
+    "astronauta": [
+        "Explorador dos confins celestiais.",
+        "Veste traje que resiste ao vácuo.",
+        "Sua casa pode orbitar nosso planeta.",
+        "Treinamento rigoroso antes do grande salto.",
+        "Trabalha onde a gravidade perde força.",
+        "Vislumbra a Terra em sua plenitude.",
+        "Utiliza veículos que rompem a atmosfera.",
+        "Vive em módulos a centenas de quilômetros acima.",
+        "Busca novos horizontes no espaço.",
+        "Primeiros humanos a pisar em outros mundos."
+    ]
+}
