@@ -16,6 +16,7 @@ def choose_word() -> str:
 def play():
     tentativas = 0
     dicas = []
+    dica = ''
     
     with open('D:\Meus-Projetos\Jogos (Em desinvolvimento)\palavras_adivinhe.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
@@ -24,8 +25,13 @@ def play():
     palavra = palavra.lower()
 
     while True:
-        while dica not in dicas:
+        while True:
             dica = random.choice(data[palavra])
+            if dica not in dicas:
+                dicas.append(dica)
+                break
+            else:
+                continue
         print(f"Dica: {dica}")    
         print(f"A palavra tem {len(palavra)} letras.")
         print("-" * 30)
@@ -34,7 +40,7 @@ def play():
         tentativas += 1
         
         if tentativa == palavra:
-            print(f"\033[1;32Parabéns! Você acertou a palavra\033[1;33m '{palavra.upper()}'\033[m com {tentativas} tentativas.")
+            print(f"\033[1;32mParabéns! Você acertou a palavra\033[1;33m '{palavra.upper()}'\033[m com {tentativas} tentativas.")
             sleep(2)
             break
         else:

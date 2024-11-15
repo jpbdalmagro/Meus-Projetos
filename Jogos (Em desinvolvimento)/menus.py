@@ -1,7 +1,7 @@
 from os import system
 from time import sleep
 
-import forca, adivinhe_o_numero, adivinhe_a_palavra
+import forca, adivinhe_o_numero, adivinhe_a_palavra, jokenpo
 
 def main_menu() -> str:
     while True:
@@ -61,6 +61,7 @@ def forca_menu() -> None:
                 forca.show_class()
                 continue
             elif opcao == "3":
+                system("cls")
                 break
         else:
             system("cls")
@@ -86,6 +87,7 @@ def adivinhe_numero_menu() -> str:
                 if play_again_menu() == '2':
                     break
             if opcao == "2":
+                system("cls")
                 break
             continue
         
@@ -113,6 +115,7 @@ def adivinhe_palavra_menu() -> None:
                     break
                 continue
             elif opcao == "2":
+                system("cls")
                 break
         else:
             system("cls")
@@ -124,9 +127,24 @@ def jokenpo_menu() -> None:
     while True:
         print("{:^30}".format("JoKenPo"))
         print("\033[1;93m-\033[m" * 30)
-        print("{:^30}".format("Em desenvolvimento"))
+        print("{:^30}".format("1 - Jogar"))
+        print("{:^30}".format("2 - Voltar"))
         print("\033[1;93m-\033[m" * 30)
-        print("Voltando ao menu principal...")
-        sleep(2)
-        system("cls")
-        break
+        opcao = input("Escolha uma opção: ")
+        
+        if opcao in ["1", "2"]:
+            if opcao == "1":
+                system("cls")
+                jokenpo.play()
+                system('cls')
+                if play_again_menu() == '2':
+                    break
+                continue
+            elif opcao == '2':
+                system('cls')
+                break
+        else:
+            system("cls")
+            print("\033[1;31mOpção inválida. Tente novamente.\n\033[m")
+            sleep(0.5)
+            continue
